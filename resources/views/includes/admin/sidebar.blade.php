@@ -1,10 +1,10 @@
 <!-- Desktop sidebar -->
 <aside class="z-20 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block flex-shrink-0">
   <div class="py-4 text-gray-500 dark:text-gray-400">
-    <img src="{{ asset('img/logo.svg')}}" alt=""
-      class="inline-flex ml-3 items-center transform transition hover:scale-125 duration-300 ease-in-out" />
+  <img src="{{ asset('assets/img/LogoRT.png')}}" style ="width: 50px; height: auto;" alt="Logo"
+      class="ml-3 items-center transform transition hover:scale-125 duration-300 ease-in-out" />
     <a class="ml-3 text-lg font-bold text-gray-800 dark:text-gray-200" href="/">
-      APLIKASIKU
+      APLIKASI PENGADUAN RT
     </a>
     <ul class="mt-6">
       <li class="relative px-6 py-3">

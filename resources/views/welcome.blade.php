@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>APLIKASi | Laporan Siswa</title>
+  <title>APLIKASi PENGADUAN RT</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.svg" rel="icon">
+  <link href="assets/img/LogoRT.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -39,7 +39,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Layanan Laporan Siswa Berbasis Online</h1>
+          <h1 data-aos="fade-up">Layanan Laporan Masyarakat Berbasis Online</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Sampaikan laporan masalah Anda di sini, kami akan memprosesnya dengan cepat , aman dan nyaman.</h2>
           <div data-aos="fade-up" data-aos-delay="800">
             <a href="{{ url('login')}}" class="btn-get-started scrollto">Laporkan!</a>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/hero.svg" class="img-fluid animated" alt="">
+          <img src="assets/img/fotort.JPG" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -69,17 +69,17 @@
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
             <p>
-              <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan Siswa yang dibuat untuk memudahkan Siswa untuk memberikan laporan atau informasi kepada pihak petugas sekolah
+              <h3>APLIKASI PENGADUAN RT</h3> adalah sistem laporan pengaduan Masyarakat yang dibuat untuk memudahkan Masyrakat untuk memberikan laporan atau informasi kepada pihak petugas RT Kami
             </p>
             <ul>
-              <h3>Tujuan APLIKASIKU</h3>
-              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pihak sekolah supaya bisa ditindak lebih lanjut</li>
-              <li><i class="ri-check-double-line"></i>Mempermudah siswa untuk berkomunikasi dengan pihak sekolah</li>
+              <h3>Tujuan APLIKASI PENGADUAN RT</h3>
+              <li><i class="ri-check-double-line"></i>Memberikan Informasi atau laporan yang jelas kepada pihak RT supaya bisa ditindak lebih lanjut</li>
+              <li><i class="ri-check-double-line"></i>Mempermudah Masyrakat untuk berkomunikasi dengan pihak RT</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <p>
-              <h4>APLIKASIKU</h4>merupakan komitmen  kami untuk melayani siswa. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara siswa bisa didengar dan ditindaklanjuti oleh pihak sekolah.
+              <h4>APLIKASI PENGADUAN RT</h4>merupakan komitmen  kami untuk melayani Masyarakat. Dengan hadirnya sistem pelaporan pengaduan online ini, diharapkan setiap suara Masyrakarat bisa didengar dan ditindaklanjuti oleh pihak RT.
             </p>
             <a href="#services" class="btn-learn-more">Tata cara atau alur pengaduan</a>
           </div>
@@ -88,13 +88,37 @@
       </div>
     </section><!-- End About Us Section -->
 
+    <div class="section-title" data-aos="fade-up">
+  <h2>Visi dan Misi</h2>
+</div>
+
+<div class="row content">
+  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+    <p>
+      <h3>Visi</h3>
+      Meningkatkan kualitas pelayanan masyarakat dengan membangun sistem pengaduan yang efektif, efisien, dan transparan.
+    </p>
+  </div>
+  <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+    <p>
+      <h3>Misi</h3>
+      <ul>
+        <li><i class="ri-check-double-line"></i>Membangun sistem pengaduan yang mudah diakses dan digunakan oleh masyarakat.</li>
+        <li><i class="ri-check-double-line"></i>Meningkatkan kualitas pelayanan masyarakat dengan memproses pengaduan secara cepat dan efektif.</li>
+        <li><i class="ri-check-double-line"></i>Membangun kerja sama yang efektif dengan pihak-pihak terkait untuk meningkatkan kualitas pelayanan masyarakat.</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container">
 
         <div class="row">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+            <img src="assets/img/fotomasyarakat.jpeg" alt="" class="img-fluid">
           </div>
 
           <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -104,7 +128,7 @@
                   <div class="count-box">
                     <i class="bi bi-emoji-smile"></i>
                     <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Pengguna</strong><br>DAFTAR pengguna APLIKASIKU</p>
+                    <p><strong>Pengguna</strong><br>DAFTAR pengguna APLIKASI PENGADUAN RT</p>
                   </div>
                 </div>
 
@@ -139,7 +163,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>TATA CARA</h2>
-          <p>Nah ini dia alur pelaporan yang ada website APLIKASIKU</p>
+          <p>Nah ini dia alur pelaporan yang ada website APLIKASI PENGADUAN RT</p>
         </div>
 
         <div class="row">
