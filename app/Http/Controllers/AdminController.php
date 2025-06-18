@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Pengaduan;
+use App\Models\Antrian;
+use App\Models\PengajuanSurat;
 
 // use Barryvdh\DomPDF\PDF;
 use Barryvdh\DomPDF\Facade as PDF;
@@ -26,6 +28,11 @@ class AdminController extends Controller
         return view('pages.admin.pengaduan.detail',[
         'item' => $item
         ]);
+
+         $antrians = Antrian::all();
+
+        // Mengirim data antrian ke view
+        return view('pages.admin.dashboard', compact('antrians'));
     }
 
     public function masyarakat() {
@@ -63,4 +70,11 @@ class AdminController extends Controller
         $pdf = PDF::loadview('pages.admin.pengaduan.cetak', compact('pengaduan'))->setPaper('a4');
         return $pdf->download('laporan-pengaduan.pdf');
     }
+
+
+public function antrian($id)
+{
+    $antrian = Antrian::find($id); // Find antrian by ID
+    return view('admin.antrian', compact('antrian')); // Correct view path
+}
 }

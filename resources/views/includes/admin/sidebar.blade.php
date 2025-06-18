@@ -21,6 +21,39 @@
         </a>
       </li>
     </ul>
+    <!-- Menu Antrian Online -->
+    <li class="relative px-6 py-3">
+        <span
+          class="{{ (request()->is('antrian.index')) ? 'absolute inset-y-0 left-0 w-1 bg-red-600 rounded-tr-lg rounded-br-lg' : '' }} "
+          aria-hidden="true"></span>
+        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+          href="{{ route('antrian.index')}}">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <path
+              d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z">
+            </path>
+          </svg>
+          <span class="ml-4">Antrian Online</span>
+        </a>
+      </li>
+    </ul>
+    <!-- Menu Pengajuan Surat -->
+    <ul>
+      <li class="relative px-6 py-3">
+        <span
+          class="{{ (request()->routeIs('pengajuan-surat.index')) ? 'absolute inset-y-0 left-0 w-1 bg-red-600 rounded-tr-lg rounded-br-lg' : '' }} "
+          aria-hidden="true"></span>
+        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+         href="{{ route('pengajuan-surat.index') }}">
+          <svg class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="ml-4">Pengajuan Surat</span>
+        </a>
+      </li>
+    </ul>
     <ul>
       <li class="relative px-6 py-3">
         <span

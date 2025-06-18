@@ -55,9 +55,6 @@
 
   </section><!-- End Hero -->
 
-  <main id="main">
-
-
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -87,6 +84,55 @@
 
       </div>
     </section><!-- End About Us Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Antrian Online</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Aplikasi Pengaduan RT menyediakan layanan antrian online untuk memudahkan masyarakat dalam mengakses layanan RT. Dengan fitur ini, masyarakat dapat mendaftar antrian secara online tanpa harus datang ke kantor RT.
+            </p>
+            <ul>
+              <h3>Manfaat Antrian Online</h3>
+              <li><i class="ri-check-double-line"></i>Mengurangi waktu tunggu di kantor RT</li>
+              <li><i class="ri-check-double-line"></i>Mempermudah masyarakat dalam mengakses layanan RT</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              Dengan adanya layanan antrian online, diharapkan masyarakat dapat lebih mudah dan cepat mendapatkan layanan dari RT. Aplikasi Pengaduan RT berkomitmen untuk terus meningkatkan kualitas layanan kepada masyarakat.
+            </p>
+            <a href="{{ route('antrian.buat') }}" class="btn-learn-more">Mendaftar Antrian</a>
+          </div>
+
+          <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pengajuan Surat</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              Aplikasi Pengaduan RT juga menyediakan layanan pengajuan surat untuk memudahkan masyarakat dalam mengurus administrasi. Masyarakat dapat mengajukan surat secara online melalui aplikasi ini.
+            </p>
+            <ul>
+              <h3>Manfaat Pengajuan Surat</h3>
+              <li><i class="ri-check-double-line"></i>Mengurangi waktu dan biaya dalam mengurus administrasi</li>
+              <li><i class="ri-check-double-line"></i>Mempermudah masyarakat dalam mengakses layanan administrasi RT</li>
+            </ul>
+             <a href="{{ route('pengajuan-surat.buat') }}" class="btn-learn-more">Pengajuan</a>
+          </div>
+  <main id="main">
+    </section><!-- End About Us Section -->
+
 
     <div class="section-title" data-aos="fade-up">
   <h2>Visi dan Misi</h2>

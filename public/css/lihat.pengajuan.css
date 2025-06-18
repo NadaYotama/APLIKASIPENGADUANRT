@@ -1,0 +1,154 @@
+/* Styling untuk card */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk header card */
+.card-header {
+    border-radius: 15px 15px 0 0;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+/* Styling untuk body card */
+.card-body {
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+/* Styling untuk judul bagian */
+h5.text-primary {
+    color: #4e73df;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Styling untuk status badge */
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.badge.bg-warning {
+    background-color: #f39c12;
+}
+
+.badge.bg-info {
+    background-color: #17a2b8;
+}
+
+.badge.bg-success {
+    background-color: #28a745;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545;
+}
+
+/* Styling untuk lampiran button */
+.btn-outline-primary {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Styling untuk modal */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #dc3545;
+    color: white;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-footer button {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+}
+
+/* Styling untuk tombol pengajuan batal */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Styling untuk tombol Kembali */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+/* Styling untuk tampilan teks dengan ikon */
+.text-end {
+    text-align: right;
+}
+
+/* Styling untuk teks keperluan */
+.fs-5 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Styling untuk spasi antara elemen */
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+/* Responsif - Menyesuaikan ukuran pada layar kecil */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 20px;
+    }
+
+    h5.text-primary {
+        font-size: 1rem;
+    }
+
+    .fs-5 {
+        font-size: 1rem;
+    }
+
+    .btn-primary, .btn-info, .btn-danger, .btn-secondary {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}

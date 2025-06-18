@@ -1,0 +1,113 @@
+/* Styling untuk card */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk header card */
+.card-header {
+    border-radius: 15px 15px 0 0;
+    background-color: #4e73df;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 20px;
+}
+
+/* Styling untuk input select */
+.form-select {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.form-select:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling untuk textarea */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    transition: border-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling untuk tombol */
+.btn {
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2e59d9;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+/* Styling untuk file input */
+.form-control[type="file"] {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styling untuk error message */
+.invalid-feedback {
+    color: #e74a3b;
+    font-size: 0.875rem;
+}
+
+/* Styling untuk small text */
+.text-muted {
+    font-size: 0.875rem;
+}
+
+/* Styling untuk container form */
+.container {
+    padding: 40px 0;
+}
+
+/* Styling untuk card body */
+.card-body {
+    padding: 25px;
+}
+
+/* Styling untuk link kembali */
+a.btn-secondary {
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-header h4 {
+        font-size: 1.1rem;
+    }
+
+    .form-select, .form-control, .btn {
+        font-size: 0.9rem;
+    }
+}

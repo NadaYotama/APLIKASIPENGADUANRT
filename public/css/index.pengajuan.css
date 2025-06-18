@@ -1,0 +1,114 @@
+/* Styling untuk card */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk header card */
+.card-body {
+    padding: 20px;
+}
+
+/* Styling untuk alert success */
+.alert-success {
+    background-color: #28a745;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.alert-success .btn-close {
+    background-color: white;
+}
+
+/* Styling untuk tabel */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Hover effect for table rows */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling untuk badge status */
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+/* Styling untuk tombol tambah surat */
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2e59d9;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #138496;
+}
+
+/* Styling untuk judul halaman */
+h2 {
+    font-size: 1.8rem;
+    color: #4e73df;
+    font-weight: 600;
+}
+
+/* Styling untuk teks yang tidak ada pengajuan */
+.text-muted {
+    font-size: 1.1rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Responsif - Menyesuaikan ukuran pada layar kecil */
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .btn-primary, .btn-info {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
